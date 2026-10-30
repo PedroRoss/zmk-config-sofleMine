@@ -1,92 +1,7 @@
 layout: {zmk_keyboard: Sofle}
 layers:
-  Base:
+  default:
   - Esc
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - NUBS
-  - ↹
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
-  - '`'
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - MUTE
-  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - {t: ⏎, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - Symbols
-  - ␣
-  - $$mdi:backspace-outline$$
-  - Editing
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  Symbols:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - '`'
   - '!'
   - '@'
   - '#'
@@ -97,155 +12,57 @@ layers:
   - '*'
   - (
   - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - +
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Ruchey:
-  - Esc
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - NUBS
+  - CMENU
   - ↹
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
-  - '`'
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
   - ''''
-  - $$mdi:apple-keyboard-control$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - MUTE
-  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
-  - N
-  - M
   - ','
   - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
   - /
-  - {t: ⏎, h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
-  - Symbols*
-  - ␣
-  - $$mdi:backspace-outline$$
-  - Editing
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  Symbols*:
-  - AltGr+8
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ']'
-  - AltGr+2
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - AltGr+6
-  - AltGr+`
-  - AltGr+5
-  - Sft+2
-  - AltGr+3
-  - AltGr+4
-  - Sft+5
-  - AltGr+,
-  - AltGr+.
-  - Sft+8
-  - Sft+9
-  - Sft+0
-  - AltGr+7
-  - {t: ▽, type: trans}
-  - '='
+  - CLCK
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
   - '-'
-  - Sft+=
-  - AltGr+[
-  - AltGr+]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - AltGr+;
-  - AltGr+'
-  - Sft+4
-  - Sft+6
-  - Sft+7
-  - Sft+1
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Editing:
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-command$$
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - ''
+  - ''
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - '='
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: lower, h: toggle}
+  - ␣
+  - ⏎
+  - {t: raise, h: toggle}
+  - $$mdi:backspace-outline$$
+  - ⌦
+  - Insert
+  lower:
+  - Esc
   - F1
   - F2
   - F3
@@ -257,82 +74,129 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
-  - Insert
-  - Print Scrn
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Page Up
-  - $$mdi:backspace-outline$$
+  - ↹
+  - <
+  - '>'
+  - '['
+  - ']'
+  - \
+  - ''
+  - Home
   - ↑
-  - ⌦
-  - {t: ▽, type: trans}
+  - End
+  - Page Up
   - F12
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
   - CLCK
-  - Page Down
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ←
   - ↓
   - →
-  - Home
-  - End
-  - {t: ▽, type: trans}
-  - Ctl+Z
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+⏎
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - ⏮️
-  - ⏯
-  - ⏭️
-  Adjust:
+  - Page Down
+  - CMENU
+  - $$mdi:apple-keyboard-command$$
+  - ''
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - ''
+  - ''
+  - ''
+  - Print Scrn
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: lower, h: toggle}
+  - ␣
+  - ⏎
+  - {t: raise, h: toggle}
+  - $$mdi:backspace-outline$$
+  - ⌦
+  - Insert
+  raise:
+  - Esc
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP NUMLOCK
+  - KP DIVIDE
+  - KP MULTIPLY
+  - KP MINUS
+  - CMENU
+  - ↹
+  - P
+  - A
+  - O
+  - T
+  - '-'
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - KP PLUS
+  - ''
+  - CLCK
+  - S
+  - A
+  - P
+  - B
+  - A
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - KP COMMA
+  - ''
+  - $$mdi:apple-keyboard-command$$
+  - ''
+  - I
+  - O
+  - ''
+  - ''
+  - ''
+  - ''
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - KP EQUAL
+  - KP DOT
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: lower, h: toggle}
+  - ␣
+  - ⏎
+  - {t: raise, h: toggle}
+  - $$mdi:backspace-outline$$
+  - ⌦
+  - Insert
+  adjust:
   - BT CLR
   - BT 1
   - BT 2
   - BT 3
-  - BT 4
-  - BT 5
-  - {t: Ruchey, h: toggle}
-  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - ''
   - EP TOG
-  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
-  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
-  - {t: '$$mdi:led-on$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
-  - {t: '$$mdi:led-outline$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
-  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
-  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
   - ''
   - ''
   - ''
@@ -359,10 +223,24 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
   - ''
   - ''
   - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: lower, h: toggle}
+  - ␣
+  - ⏎
+  - {t: raise, h: toggle}
+  - $$mdi:backspace-outline$$
+  - ⌦
+  - Insert
